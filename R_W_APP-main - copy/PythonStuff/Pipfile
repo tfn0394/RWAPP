@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+selenium = "*"
+pyrebase4 = "*"
+webdriver-manager = "*"
+keras = "*"
+tensorflow = "*"
+matplotlib = "*"
+requests = "*"
+yagmail = "*"
+beautifulsoup4 = "*"
+html5lib = "*"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+flake8-import-order = "*"
+pep8-naming = "*"
+freezegun = "*"
+docformatter = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+lint = "flake8 --show-source ."
+format = "autopep8 --in-place --verbose --recursive --aggressive ."
+format-doc = "docformatter --in-place --recursive ."

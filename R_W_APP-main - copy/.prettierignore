@@ -1,0 +1,10 @@
+.expo/
+.vscode/
+.eslintrc.*
+.prettierrc.*
+
+app.json
+babel.config.js
+LICENSE.md
+mongodbtest.js
+package.json
